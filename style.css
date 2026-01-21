@@ -1,0 +1,60 @@
+*{
+    box-sizing: border-box;
+}
+h1{
+    margin-top: 50px;
+    color: #ea8685;
+    display: flex;
+    justify-content: center;
+    font-family: "Playwrite GB J Guides", cursive;
+}
+.btn-group{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    column-gap: 25px;
+}
+.menu-item{
+    display: flex;
+    column-gap: 25px;
+    width: 40%;
+    margin-left: 5%;
+}
+.card-header{
+    font-family: "Pacifico", cursive;
+    font-size: large;
+    color:#ea8685 ;
+    display: flex;
+    justify-content: space-between;
+}
+.hr{
+    color: #596275;
+    margin-top: -5px;
+    margin-bottom: 25px;
+}
+button {
+    width: 5rem;
+    height: 2rem;
+    color: white;
+    border-radius: 15px;
+    border: none;
+}
+#liste{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 25px;
+    row-gap: 50px;
+    margin-top: 100px;
+}
+#hepsi{
+    background-color: #f8a5c2;
+}
+#kore{
+    background-color: #63cdda;
+}
+#japon{
+    background-color:#596275;
+}
+#cin{
+    background-color:#786fa6;
+}
