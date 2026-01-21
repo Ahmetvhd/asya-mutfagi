@@ -33,11 +33,15 @@ h1{
     margin-bottom: 25px;
 }
 button {
+    cursor: pointer;
     width: 5rem;
     height: 2rem;
     color: white;
     border-radius: 15px;
     border: none;
+}
+button:hover{
+    opacity: 0.5;
 }
 #liste{
     display: flex;
